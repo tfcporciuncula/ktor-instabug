@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "instabug-sp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Instabug/Instabug-SP",
+      "state" : {
+        "revision" : "92601d0186afa475b98e1b351ea3c42af940cafe",
+        "version" : "12.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
