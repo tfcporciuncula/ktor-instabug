@@ -5,7 +5,11 @@ struct ContentView: View {
 	let greet = Greeting().greet()
 
 	var body: some View {
-		Text(greet)
+    Button(action: {
+      Task { try await KtorClient.shared.submitForm() }
+    }, label: {
+      Text("Trigger data form request")
+    })
 	}
 }
 
